@@ -23,7 +23,7 @@
         vendorHash = "sha256-m5mBubfbXXqXKsygF5j7cHEY+bXhAMcXUts5KBKoLzM";
         goPackagePath = "github.com/scottmckendry/pat";
         subPackages = [ "." ];
-        go = pkgs.go_1_24;
+        go = pkgs.go;
 
         meta = with pkgs.lib; {
           description = "Pokemon (Go) Color Scripts - Phoney Badger's Pokemon colorscripts wrapped with Go into a standalone, cross-platform binary.";
